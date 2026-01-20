@@ -6,5 +6,7 @@ using namespace std;
 int main(){
     string s="apple";
     string ans=s.substr(0,3);
-    cout << ans;
+    string ans2=s.substr(1,3);
+    cout << ans<< endl;
+    cout << ans2;
 }
